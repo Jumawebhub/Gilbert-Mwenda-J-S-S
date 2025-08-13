@@ -44,22 +44,24 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary fw-bold m-0">Gilbert Mwenda</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#skill" class="nav-item nav-link">Achievements</a>
-                <a href="#service" class="nav-item nav-link">Manifesto</a>
-                <a href="#project" class="nav-item nav-link">My Gallery</a>
-                <a href="#team" class="nav-item nav-link">Gallery Two</a>
-                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="text-primary fw-bold m-0">Gilbert Mwenda</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#skill" class="nav-item nav-link">Achievements</a>
+                    <a href="#service" class="nav-item nav-link">Manifesto</a>
+                    <a href="#project" class="nav-item nav-link">My Gallery</a>
+                    <a href="#team" class="nav-item nav-link">Gallery Two</a>
+                    <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -69,26 +71,30 @@
     <!-- Header Start -->
     <div class="container-fluid bg-light my-6 mt-0" id="home">
         <div class="container">
-            <div class="row g-5 align-items-center">
+            <div class="row g-5 align-items-center justify-content-center">
                 <div class="col-lg-6 py-6 pb-0 pt-lg-0">
-                    <h3 class="text-primary mb-3">I'm</h3>
-                    <h1 class="display-3 mb-3">Gilbert Mwenda</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">I am Gilbert Mwenda, informally the Tharaka Nithi Junior School President. Also, the Maara Sub County Junior School President.</div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="" class="btn btn-primary py-3 px-4 me-5">ASPIRANT 
-JUNIOR SCHOOL SECRETARY</a>
-                  <button type="button" class="btn-play" data-bs-toggle="modal"
-        data-src="img/video 1.mp4" data-bs-target="#videoModal">
-    <span></span>
-</button>
-
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    <div class="hero-content">
+                        <h3 class="text-primary mb-3 fw-bold">I'm</h3>
+                        <h1 class="display-3 mb-4 fw-bold">Gilbert Mwenda</h1>
+                        <div class="typed-container mb-4">
+                            <h2 class="typed-text-output d-inline fw-semibold"></h2>
+                            <div class="typed-text d-none">I am Gilbert Mwenda, informally the Tharaka Nithi Junior School President. Also, the Maara Sub County Junior School President.</div>
+                        </div>
+                        <div class="hero-actions d-flex align-items-center flex-wrap gap-3 pt-4">
+                            <a href="#about" class="btn btn-primary px-4 py-3">
+                                <span class="fw-bold">ASPIRANT JUNIOR SCHOOL SECRETARY</span>
+                            </a>
+                            <div class="d-flex align-items-center gap-3">
+                                <button type="button" class="btn-play" data-bs-toggle="modal"
+                                    data-src="img/video 1.mp4" data-bs-target="#videoModal">
+                                    <span></span>
+                                </button>
+                                <h6 class="mb-0 d-none d-sm-block text-muted">Play Video</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="img/jj2.jpeg" alt="">
-                </div>
+               
             </div>
         </div>
     </div>
@@ -119,23 +125,40 @@ JUNIOR SCHOOL SECRETARY</a>
     <!-- About Start -->
     <div class="container-xxl py-6" id="about">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                      <h1 class="display-3 mb-3">Synopsis</h1>
-                   
-                    <p class="mb-4">I am Gilbert Mwenda, famously known as "Mwenda G" – A servant and a result-oriented leader.
+                    <div class="about-content">
+                        <h1 class="display-4 mb-4 fw-bold">Synopsis</h1>
 
-Ever committed to championing the rights and dignity of teachers and leadership in class.
+                        <div class="about-text">
+                            <p class="lead mb-4">I am Gilbert Mwenda, famously known as <strong>"Mwenda G"</strong> – A servant and a result-oriented leader.</p>
 
-My leadership journey began in primary school as a Laudatious Prefect and has since grown through various capacities in school leadership. While in primary to high school as a YCS leader, I headed Scouts Chairman, Environmental Club, Chapel Clerk/Clerkship in Christian Union, to Dining Captain and later to numerous government school responsibilities.
+                            <p class="mb-4">Ever committed to championing the rights and dignity of teachers and leadership in class.</p>
 
-As a benefit, I was lucky to represent my high school in an exchange program in Scotland, UK for 10 days, a fully funded program by United Kingdom Council.
+                            <p class="mb-4">My leadership journey began in primary school as a Laudatious Prefect and has since grown through various capacities in school leadership. While in primary to high school as a YCS leader, I headed Scouts Chairman, Environmental Club, Chapel Clerk/Clerkship in Christian Union, to Dining Captain and later to numerous government school responsibilities.</p>
 
-Through university, I was able to serve colleagues as a Class Rep, representing my colleagues in Kiswahili Scholars Society, and as a Youth Chair in P.C.E.A Parish, served as a chair in an initiative of CBO.</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Teacher Protection</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Teacher Representation</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Clear Career Progression for J.S Teachers</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                            <p class="mb-4">As a benefit, I was lucky to represent my high school in an exchange program in Scotland, UK for 10 days, a fully funded program by United Kingdom Council.</p>
+
+                            <p class="mb-4">Through university, I was able to serve colleagues as a Class Rep, representing my colleagues in Kiswahili Scholars Society, and as a Youth Chair in P.C.E.A Parish, served as a chair in an initiative of CBO.</p>
+                        </div>
+
+                        <div class="key-points mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-shield-alt text-primary me-3 fs-5"></i>
+                                <span class="fw-semibold">Teacher Protection</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-users text-primary me-3 fs-5"></i>
+                                <span class="fw-semibold">Teacher Representation</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-chart-line text-primary me-3 fs-5"></i>
+                                <span class="fw-semibold">Clear Career Progression for J.S Teachers</span>
+                            </div>
+                        </div>
+
+                        <a class="btn btn-primary btn-lg px-5 py-3" href="#service">Learn More</a>
+                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
@@ -148,12 +171,12 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                     </div>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Main Objective:</h5>
-                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up"></h2>
+                        
                     </div>
                     <p class="mb-4">My main objective is to passionately champion and advocate for the rights of junior school students’ welfare, represent, advocate, and protect their rights.</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Leadership Values:</h5>
-                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up"></h2>
+                        
                     </div>
                     <p class="mb-0">As a result-oriented leader, I always strive to restore dignity and professionalism in the teaching.</p>
                 </div>
@@ -173,12 +196,13 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                     
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
-                        <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Achievements</button>
-                        </li>
-                        
-                    </ul>
+                    <div class="d-flex justify-content-center mb-5">
+                        <ul class="nav nav-pills rounded border border-2 border-primary">
+                            <li class="nav-item">
+                                <button class="nav-link py-3 px-5 fs-5 active" data-bs-toggle="pill" href="#tab-1">Achievements</button>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row gy-5 gx-4">
@@ -234,18 +258,15 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
     <div class="container-fluid bg-light my-5 py-6" id="service">
         <div class="container">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
+                <div class="col-12 text-center">
                     <h1 class="display-5 mb-0">MANIFESTO</h1>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">ROADMAP</a>
                 </div>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                            <i class="fas fa-university fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">J.S Administration Independency</h4>
@@ -266,7 +287,7 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                            <i class="fas fa-chart-line fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Clear Career Progression for J.S Teachers</h4>
@@ -286,7 +307,7 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-code fa-2x text-dark"></i>
+                            <i class="fas fa-shield-alt fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Teacher Protection / Defense</h4>
@@ -305,7 +326,7 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
-                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                            <i class="fas fa-users fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Teacher Representation</h4>
@@ -482,11 +503,9 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
                     <h3 class="fw-bold">mwendagilbert45@gmail.com</h3>
                     <hr class="w-100">
                     <p class="mb-2">Follow me:</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <div class="d-flex pt-2 social-icons">
+                        <a href="https://www.facebook.com/share/1D2faBnYHR/" target="_blank" class="social-icon me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/gilbert-mwenda-67215a170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon me-3"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -580,6 +599,9 @@ Through university, I was able to serve colleagues as a Class Rep, representing 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Custom Animations -->
+    <script src="js/animations.js"></script>
 </body>
 
 </html>
